@@ -1,15 +1,2 @@
-server:
-  address: localhost
-  port: 8080
-spring:
-  datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    password: 1234
-    url: "jdbc:mysql://localhost:3306/gradedb?useSSL=false&characterEncoding=UTF-8&serverTimezone=UTC"
-    username: prof
-  jpa:
-    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
-    hibernate:
-      ddl-auto: create
-    generate-ddl: true
-    show-sql: true
+example:
+  property: insang
